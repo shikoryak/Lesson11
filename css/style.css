@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+  margin: 0;
+  min-width: 320px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+.container .item {
+  margin: 28px;
+  display: flex;
+}
+.container .item .vector {
+  margin-right: 25px;
+  padding-top: 30px;
+}
+.container .item .sub-head {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  color: #2FA84F;
+  margin: 0 0 16px;
+}
+.container .item .head {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #3E4345;
+  margin: 0 0 8px;
+}
+.container .item .desc {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0 0 40px;
+}
+.container .item .button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+  background: #2FA84F;
+  box-shadow: 0px 4px 8px rgba(47, 168, 79, 0.16), 0px 2px 4px rgba(47, 168, 79, 0.24);
+  border-radius: 8px;
+  padding: 11px 18px;
+  border: 0;
+}
+.container .item.design .sub-head {
+  color: #367BF5;
+}
+.container .item.design .button {
+  background: #367BF5;
+}
+
+@media only screen and (max-width: 830px) {
+  .container {
+    padding: 0;
+  }
+  .container .item {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
